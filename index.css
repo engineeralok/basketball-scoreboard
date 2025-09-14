@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #1B244A
+}
+
+@font-face {
+    font-family: "timefont";
+    src: url("assets/time-font.ttf")
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-name {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: 700;
+}
+
+.score-box {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "timefont";
+}
+
+.add-points-btns {
+    display: flex;
+    margin-top: 26px;
+    gap: 10px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px #9AABD8 solid;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: "timefont";
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.new-game{
+    margin-top: 20px;
+}
